@@ -1,8 +1,8 @@
 package com.labtehdent;
 
 public class Doctor {
-    public  String nume;
-    public String idDoctor;
+    private  String nume;
+    private String idDoctor;
 
     public String getNume() {
         return nume;

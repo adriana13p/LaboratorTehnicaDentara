@@ -3,13 +3,14 @@ package com.labtehdent;
 import java.util.Date;
 
 public class LucrareProtetica {
-    public  String tipLucrareProtetica;
-    public String idLucrareProtetica;
-    public String culoare;
-    public Date dataIntrare;
-    public Date dataProba1;
-    public Date dataProba2;
-    public Date dataFinalizare;
+    private  String tipLucrareProtetica;
+    private String idLucrareProtetica;
+    private String culoare;
+    private Date dataIntrare;
+    private Date dataProba1;
+    private Date dataProba2;
+    private Date dataFinalizare;
+    private String numePacient;
 
     public String getTipLucrareProtetica() {
         return tipLucrareProtetica;
@@ -65,5 +66,13 @@ public class LucrareProtetica {
 
     public void setDataFinalizare(Date dataFinalizare) {
         this.dataFinalizare = dataFinalizare;
+    }
+
+    public String getNumePacient() {
+        return numePacient;
+    }
+
+    public void setNumePacient(String numePacient) {
+        this.numePacient = numePacient;
     }
 }
