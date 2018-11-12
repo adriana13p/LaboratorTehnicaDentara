@@ -1,22 +1,27 @@
 package com.labtehdent;
 
 public class Doctor {
-    private  String nume;
-    private String idDoctor;
+    private  String numeDoctor;
+    private int idDoctor;
 
-    public String getNume() {
-        return nume;
+    public Doctor(String numeDoctor, int idDoctor) {
+        this.numeDoctor = numeDoctor;
+        this.idDoctor = idDoctor;
     }
 
-    public void setNume(String nume) {
-        this.nume = nume;
+    public String getNumeDoctor() {
+        return numeDoctor;
     }
 
-    public String getIdDoctor() {
+    public void setNumeDoctor(String numeDoctor) {
+        this.numeDoctor = numeDoctor;
+    }
+
+    public int getIdDoctor() {
         return idDoctor;
     }
 
-    public void setIdDoctor(String idDoctor) {
+    public void setIdDoctor(int idDoctor) {
         this.idDoctor = idDoctor;
     }
 }

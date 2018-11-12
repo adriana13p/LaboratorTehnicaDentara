@@ -1,22 +1,37 @@
 package com.labtehdent;
 
 public class Tehnician {
-    private  String nume;
-    private String idTehnician;
+    private  String numeTechnician;
+    private int idTechnician;
+    private String tipTehnician;
 
-    public String getNume() {
-        return nume;
+    public Tehnician(String numeTechnician, int idTechnician, String tipTehnician) {
+        this.numeTechnician = numeTechnician;
+        this.idTechnician = idTechnician;
+        this.tipTehnician = tipTehnician;
     }
 
-    public void setNume(String nume) {
-        this.nume = nume;
+    public String getNumeTechnician() {
+        return numeTechnician;
     }
 
-    public String getIdTehnician() {
-        return idTehnician;
+    public void setNumeTechnician(String numeTechnician) {
+        this.numeTechnician = numeTechnician;
     }
 
-    public void setIdTehnician(String idTehnician) {
-        this.idTehnician = idTehnician;
+    public int getIdTechnician() {
+        return idTechnician;
+    }
+
+    public void setIdTechnician(int idTechnician) {
+        this.idTechnician = idTechnician;
+    }
+
+    public String getTipTehnician() {
+        return tipTehnician;
+    }
+
+    public void setTipTehnician(String tipTehnician) {
+        this.tipTehnician = tipTehnician;
     }
 }
